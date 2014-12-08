@@ -62,7 +62,7 @@ RSpec.feature 'question management', focus: true do
     #expect to find only 10 times 'Title' on the page
       expect(page).not_to have_text "hard question 9"
       expect(Question.page(2)).not_to have_text "hard question 24"
-      expect(Question.page(3)).to have_text("hard question 26")
+   
     end
 
 
